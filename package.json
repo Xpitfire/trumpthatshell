@@ -1,0 +1,24 @@
+{
+    "version": "0.0.1",
+    "name": "ExtensityAI/trumpthatshell",
+    "description": "A shell that speaks like Donald Trump",
+    "expressions": [
+        {
+            "module": "src/styles",
+            "type": "StyledFunction"
+        },
+        {
+            "module": "src/styles",
+            "type": "StyledConversation"
+        },
+        {
+            "module": "src/styles",
+            "type": "RetrievalAugmentedStyledConversation"
+        }
+    ],
+    "run": {
+        "module": "src/styles",
+        "type": "StyledConversation"
+    },
+    "dependencies": []
+}
